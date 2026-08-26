@@ -7,49 +7,52 @@
     <title>AI Limerick Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Limerick Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Limerick Generator</h1>
+      </header>
 
-    <main>
-      <form id="limerick-form">
-        <input
-          type="text"
-          placeholder="e.g., cats, pizza, space"
-          id="topic"
-          name="topic"
-          required
-          autofocus
-          autocomplete="off"
-        />
-        <button type="submit">Generate Limerick</button>
-      </form>
+      <main>
+        <form id="limerick-form">
+          <input
+            type="text"
+            placeholder="e.g., cats, pizza, space"
+            id="topic"
+            name="topic"
+            required
+            autofocus
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" value="Generate Limerick" class="button" />
+        </form>
 
-      <div id="limerick-container">
-        A dozen, a gross, and a score,
-        <br />
-        Plus three times the square root of four,
-        <br />
-        Divided by seven,
-        <br />
-        Plus five times eleven,
-        <br />
-        Is nine squared and not a bit more.
-      </div>
-    </main>
+        <div class="limerick-container">
+          A dozen, a gross, and a score,
+          <br />
+          Plus three times the square root of four,
+          <br />
+          Divided by seven,
+          <br />
+          Plus five times eleven,
+          <br />
+          Is nine squared and not a bit more.
+        </div>
+      </main>
 
-    <footer>
-      This project was created by
-      <a href="https://github.com/Jess90AB" target="_blank">Jess Burton</a>. It
-      is open-sourced on
-      <a href="https://github.com/Jess90AB/limerick-generator" target="_blank"
-        >GitHub</a
-      >. The website is hosted on
-      <a href="https://ai-limerick-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
-
+      <footer>
+        This AI project was created by
+        <a href="https://github.com/Jess90AB" target="_blank">Jess Burton</a>,
+        is open-sourced on
+        <a href="https://github.com/Jess90AB/limerick-generator" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://ai-limerick-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

@@ -1,7 +1,67 @@
+body {
+  background-color: #f0f0f0;
+}
 
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: #ccc0e3;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(63, 48, 71, 0.5);
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  color: #303647;
+  font-family: Arial, sans-serif;
+  font-size: 38px;
+}
+form {
+  padding: 20px;
 
+  border-radius: 10px;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #5f72a6;
+}
+.instructions {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 80%;
+  line-height: 1.5;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5f72a6;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.limerick-container {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #d5c8f0;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  box-shadow: 0 4px 8px rgba(63, 48, 71, 0.5);
+}
 footer {
   margin-top: 20px;
   font-size: 0.9em;
   color: #666;
+  text-align: center;
 }
