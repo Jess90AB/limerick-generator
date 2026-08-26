@@ -7,7 +7,36 @@
     <title>AI Limerick Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Limerick Generator!</h1>
+    <header>
+      <h1>AI Limerick Generator</h1>
+    </header>
+
+    <main>
+      <form id="limerick-form">
+        <input
+          type="text"
+          placeholder="e.g., cats, pizza, space"
+          id="topic"
+          name="topic"
+          required
+          autofocus
+          autocomplete="off"
+        />
+        <button type="submit">Generate Limerick</button>
+      </form>
+
+      <div id="limerick-container">
+        A dozen, a gross, and a score,
+        <br />
+        Plus three times the square root of four,
+        <br />
+        Divided by seven,
+        <br />
+        Plus five times eleven,
+        <br />
+        Is nine squared and not a bit more.
+      </div>
+    </main>
 
     <footer>
       This project was created by
