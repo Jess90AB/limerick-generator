@@ -6,6 +6,7 @@ function displayLimerick(response) {
     autoStart: true,
     delay: 50,
     cursor: "",
+    isDeleting: false,
   });
 }
 function generateLimerick(event) {
