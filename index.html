@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Limerick Generator</title>
   </head>
@@ -24,20 +25,10 @@
             autocomplete="off"
             class="instructions"
           />
-          <input type="submit" value="Generate Limerick" class="button" />
+          <input type="submit" value="Submit" class="button" />
         </form>
 
-        <div class="limerick-container">
-          A dozen, a gross, and a score,
-          <br />
-          Plus three times the square root of four,
-          <br />
-          Divided by seven,
-          <br />
-          Plus five times eleven,
-          <br />
-          Is nine squared and not a bit more.
-        </div>
+        <div class="limerick" id="limerick"></div>
       </main>
 
       <footer>
